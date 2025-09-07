@@ -1,0 +1,126 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Hakerboi",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "magicae-artis:item/starter_wand_texture"
+	},
+	"elements": [
+		{
+			"name": "shaft",
+			"from": [7, 3, 7],
+			"to": [9, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 6.5], "texture": "#1"},
+				"east": {"uv": [1, 0, 2, 6.5], "texture": "#1"},
+				"south": {"uv": [2, 0, 3, 6.5], "texture": "#1"},
+				"west": {"uv": [3, 0, 4, 6.5], "texture": "#1"},
+				"up": {"uv": [4, 7.5, 3, 6.5], "texture": "#1"},
+				"down": {"uv": [4, 7.5, 3, 8.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "base",
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 3, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 7]},
+			"faces": {
+				"north": {"uv": [6, 4, 7.5, 5.5], "texture": "#1"},
+				"east": {"uv": [6, 5.5, 7.5, 7], "texture": "#1"},
+				"south": {"uv": [0, 6.5, 1.5, 8], "texture": "#1"},
+				"west": {"uv": [1.5, 6.5, 3, 8], "texture": "#1"},
+				"up": {"uv": [7.5, 8.5, 6, 7], "texture": "#1"},
+				"down": {"uv": [9, 4, 7.5, 5.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "ring_top",
+			"from": [6.5, 16, 6.5],
+			"to": [9.5, 17, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 14, 7]},
+			"faces": {
+				"north": {"uv": [1.5, 8, 3, 8.5], "texture": "#1"},
+				"east": {"uv": [8, 1.5, 9.5, 2], "texture": "#1"},
+				"south": {"uv": [8, 2, 9.5, 2.5], "texture": "#1"},
+				"west": {"uv": [8, 2.5, 9.5, 3], "texture": "#1"},
+				"up": {"uv": [9, 7, 7.5, 5.5], "texture": "#1"},
+				"down": {"uv": [9, 7, 7.5, 8.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "ring_bottom",
+			"from": [6.5, 14, 6.5],
+			"to": [9.5, 15, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 12, 7]},
+			"faces": {
+				"north": {"uv": [8, 3, 9.5, 3.5], "texture": "#1"},
+				"east": {"uv": [8, 3.5, 9.5, 4], "texture": "#1"},
+				"south": {"uv": [4, 8, 5.5, 8.5], "texture": "#1"},
+				"west": {"uv": [1.5, 8.5, 3, 9], "texture": "#1"},
+				"up": {"uv": [1.5, 9.5, 0, 8], "texture": "#1"},
+				"down": {"uv": [9.5, 0, 8, 1.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "essence_conduit",
+			"from": [6, 18, 6],
+			"to": [10, 22, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 18, 7]},
+			"faces": {
+				"north": {"uv": [4, 0, 6, 2], "texture": "#1"},
+				"east": {"uv": [4, 2, 6, 4], "texture": "#1"},
+				"south": {"uv": [4, 4, 6, 6], "texture": "#1"},
+				"west": {"uv": [6, 0, 8, 2], "texture": "#1"},
+				"up": {"uv": [8, 4, 6, 2], "texture": "#1"},
+				"down": {"uv": [6, 6, 4, 8], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-4.52, -7.26, -0.58],
+			"translation": [2.25, -3.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-4.52, -7.26, -0.58],
+			"translation": [2.25, -3.5, 0]
+		},
+		"gui": {
+			"rotation": [-7.43, -4.19, -29.34],
+			"translation": [-1.5, -2, 0]
+		},
+		"fixed": {
+			"translation": [0, -2.5, -1],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	},
+	"groups": [
+		{
+			"name": "wand",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "shaft",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0, 1, 2, 3]
+				},
+				{
+					"name": "essence conduit",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [4]
+				}
+			]
+		}
+	]
+}
