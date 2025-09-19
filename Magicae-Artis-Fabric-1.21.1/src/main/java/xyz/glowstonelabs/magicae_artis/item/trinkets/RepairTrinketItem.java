@@ -16,7 +16,7 @@ public class RepairTrinketItem extends TrinketItem {
     public void tick(ItemStack stack, SlotReference slot, LivingEntity entity) {
         if (!entity.getWorld().isClient && entity instanceof PlayerEntity player) {
             // runs every 10 ticks
-            if (entity.getWorld().getTime() % 10 == 0) {
+            if (entity.getWorld().getTime() % 20 == 0) {
                 repairPlayerItems(player);
             }
         }

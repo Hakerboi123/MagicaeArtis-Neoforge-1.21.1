@@ -22,10 +22,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ARCANITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ARCANITE, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.FIRE_ARTIFACT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIREBALL_ARTIFACT, Models.GENERATED);
         itemModelGenerator.register(ModItems.WATER_ARTIFACT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.EARTH_ARTIFACT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.WIND_ARTIFACT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VEINMINER_ARTIFACT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WINDCHARGE_ARTIFACT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.REPAIR_TRINKET, Models.GENERATED);
     }

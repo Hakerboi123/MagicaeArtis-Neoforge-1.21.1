@@ -4,10 +4,10 @@ import net.minecraft.util.Formatting;
 
 public enum Artifacts {
     NONE(Formatting.GRAY),
-    FIRE(Formatting.DARK_RED),
+    FIREBALL(Formatting.DARK_RED),
     WATER(Formatting.BLUE),
-    EARTH(Formatting.DARK_GREEN),
-    WIND(Formatting.WHITE);
+    VEINMINER(Formatting.DARK_GREEN),
+    WINDCHARGE(Formatting.WHITE);
 
     private final Formatting formatting;
 

@@ -4,10 +4,10 @@
 
   "item.magicae-artis.starter_wand": "Starter Wand",
 
-  "item.magicae-artis.fire_artifact": "Fire Artifact",
+  "item.magicae-artis.fireball_artifact": "FireBall Artifact",
   "item.magicae-artis.water_artifact": "Water Artifact",
-  "item.magicae-artis.earth_artifact": "Earth Artifact",
-  "item.magicae-artis.wind_artifact": "Wind Artifact",
+  "item.magicae-artis.veinminer_artifact": "VeinMiner Artifact",
+  "item.magicae-artis.windcharge_artifact": "WindCharge Artifact",
 
   "item.magicae-artis.repair_trinket": "Repair Trinket",
 

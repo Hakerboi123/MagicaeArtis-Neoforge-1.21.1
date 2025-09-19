@@ -5,10 +5,10 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import xyz.glowstonelabs.magicae_artis.MagicaeArtis;
-import xyz.glowstonelabs.magicae_artis.item.artifacts.EarthArtifactItem;
-import xyz.glowstonelabs.magicae_artis.item.artifacts.FireArtifactItem;
+import xyz.glowstonelabs.magicae_artis.item.artifacts.VeinMinerArtifactItem;
+import xyz.glowstonelabs.magicae_artis.item.artifacts.FireBallArtifactItem;
 import xyz.glowstonelabs.magicae_artis.item.artifacts.WaterArtifactItem;
-import xyz.glowstonelabs.magicae_artis.item.artifacts.WindArtifactItem;
+import xyz.glowstonelabs.magicae_artis.item.artifacts.WindChargeArtifactItem;
 import xyz.glowstonelabs.magicae_artis.item.trinkets.RepairTrinketItem;
 import xyz.glowstonelabs.magicae_artis.item.wands.StarterWandItem;
 
@@ -24,10 +24,10 @@ public class  ModItems {
     public static final Item STARTER_WAND = registerItem("starter_wand", new StarterWandItem(new Item.Settings()));
 
     // Artifacts
-    public static final Item FIRE_ARTIFACT = registerItem("fire_artifact", new FireArtifactItem(new Item.Settings()));
+    public static final Item FIREBALL_ARTIFACT = registerItem("fireball_artifact", new FireBallArtifactItem(new Item.Settings()));
     public static final Item WATER_ARTIFACT = registerItem("water_artifact", new WaterArtifactItem(new Item.Settings()));
-    public static final Item EARTH_ARTIFACT = registerItem("earth_artifact", new EarthArtifactItem(new Item.Settings()));
-    public static final Item WIND_ARTIFACT = registerItem("wind_artifact", new WindArtifactItem(new Item.Settings()));
+    public static final Item VEINMINER_ARTIFACT = registerItem("veinminer_artifact", new VeinMinerArtifactItem(new Item.Settings()));
+    public static final Item WINDCHARGE_ARTIFACT = registerItem("windcharge_artifact", new WindChargeArtifactItem(new Item.Settings()));
 
     // Trinkets
 

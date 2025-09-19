@@ -34,7 +34,7 @@ import java.util.Set;
 
 public class StarterWandItem extends Item {
 
-    private static final int VEIN_MINE_LIMIT = 100;
+    private static final int VEIN_MINE_LIMIT = 999;
 
     public StarterWandItem(Settings settings) {
         super(settings);
@@ -72,9 +72,9 @@ public class StarterWandItem extends Item {
             return TypedActionResult.fail(stack);
         }
 
-        if (artifact == Artifacts.FIRE) castFire(world, user);
-        else if (artifact == Artifacts.WIND) castWind(world, user);
-        else if (artifact == Artifacts.EARTH) castEarth(world, user, stack);
+        if (artifact == Artifacts.FIREBALL) castFire(world, user);
+        else if (artifact == Artifacts.WINDCHARGE) castWind(world, user);
+        else if (artifact == Artifacts.VEINMINER) castEarth(world, user, stack);
 
         user.incrementStat(Stats.USED.getOrCreateStat(this));
         return TypedActionResult.success(stack, world.isClient());

@@ -20,10 +20,10 @@ public class ModItemGroups {
 
                         entries.add(ModItems.STARTER_WAND);
 
-                        entries.add(ModItems.FIRE_ARTIFACT);
+                        entries.add(ModItems.FIREBALL_ARTIFACT);
                         entries.add(ModItems.WATER_ARTIFACT);
-                        entries.add(ModItems.EARTH_ARTIFACT);
-                        entries.add(ModItems.WIND_ARTIFACT);
+                        entries.add(ModItems.VEINMINER_ARTIFACT);
+                        entries.add(ModItems.WINDCHARGE_ARTIFACT);
 
                         entries.add(ModItems.REPAIR_TRINKET);
                     }).build());
